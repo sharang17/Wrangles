@@ -1,0 +1,10 @@
+Families before moving in to a place always coniders 'education index' of the neighborhood to make sure their kids are brought up in just the right kind of surrounding. We also wanted to take this factor into consideration while ranking the neighborhoods. We rewarded each neighborhood for having higher percentage of children who successfully completed high school, and penalized for those who either withdrew or dropped out of school. Thus input to our model are:
+
+1. Children who successfully complete high school
+2. Children who withdrew or dropped out
+
+We think this is a better parameter than taking the count of school per neighborhood as kids do not necessarily go to the school in their neighborhood. Parents prefer to put their kids in the best school irrespective of their proximity.
+
+This model is also better than taking the ration of th above two parameters as in that case we pnalize a lot for withdrawing from school.
+
+

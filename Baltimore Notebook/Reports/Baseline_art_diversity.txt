@@ -1,0 +1,46 @@
+We also wanted to look at neighborhoods from a different perspective- rather than direct measures like prices, education standards, and transportation we wanted to evaluate eah neighborhood based on how it ranks in Art and diversity. People have become more sensitive and aware about these things when they choose a neighborhood to live in. 
+
+Places with high creativity index are usually preferred by people, and we would like to test his hypothesis by comparing the ranking obtained by art index with other models. 
+
+We have chosen the following parameters to calculate art index for each neighborhood:
+
+1. Businesses involved in creative economy- this takes into accont all the profit and non profit businesses involved directly or indirectly in arts- industiries that support artisitc and cultural skillsets. 
+2. Employment in creative businesses- total number of people employed in the businesses we took into account. This does not include peopl who identity themselves as artists or are involved in part time art related activities. 
+3. Total public art- museums, murals etc
+4. Events permits requested- art related events organized to support such activities
+
+Ranking by ART index is calculated by summing the abovementioned parameters after they have been normalized. 
+
+Enhancements: We can asssign ratings to art places- museums, monuments, theatres etc to come up with a better and robust ranking system. This will equire us to scour the web for such ratings as a comprehensive list of such places is difficult to get by per neighborhood basis.  
+
+
+Ranking by DIVERSITY index
+
+Diversity is one thing which has different meaning to it. For our puspose we planend to consider the following parameters:
+
+1. Racial diversity- this takes into account the fact that when two people are picked randomly what are the hances that they belong to different races- WHite, Asian, Black, Hispanic and non Hispanic
+2. Female population- this showspercentage of females in the area. 
+
+ENhancements: Due to lack of data on LGBT peope we could not consider diversity from that angle. Above values have been scaled and added to producde rankings for all the neighborhoods. This data can be added to further refine our analysis. 
+
+
+Interesting observation
+
+We can see that Federal Hill ranks the highest according to our baseline model, but it does not score very well in terms of art and diversity index. Further scoruing the web for its demographics reveals that majority of people in this neighborhood are white (87.3%) even though it has almost equal representation from both the genders.
+
+From the graph one striking thing we observe is that Downdown/Seton hill surasses all other neighborhoods n terms of its art score. This place is in close proximity with Mount Vernnon which is famous for its nighlife, cultural excitement, and LGBT hangout places. It is also famous for shows put up by galleries and emerging artists. A recent poll on Nextdoor shows that people love Seton hill for its architectural charm and historic appeal. 
+
+In our baseline model we have taken house prices as a proxy for quality and places which rank high according to that model have a bad diversity score. From the graph fist 10 places have below average diversity score. Toward the middle of the graph we can see that all the three graphs come pretty close in their rankings and as we move further right places which are ranked lower according to our baseline model have either average or higher diversity score. Even though this is something we expect because we know that white community in Baltimore is richer than their conterpart, but when the data reveals such statistics it gets really interesting!
+
+
+
+
+
+
+
+
+
+
+
+
+

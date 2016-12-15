@@ -1,0 +1,131 @@
+Intro
+============================================================================
+
+Baltimore is the largest city in Maryland, and the 29th most populous city in the country. It is also the largest independent city in the United States of America. This city has always been a city of neighborhoods, every one a universe unto itself. Each section has its own history, culture, and personality- an identity that can only be understood after years of experiences. 
+
+We all know that moving to a new city can be a daunted task, even with the help of a professional moving company. However, things start to look easy and comfortable once you know more about the area. Decision making can be made easier with a little bit of extra information up your sleeve. Is Baltimore on your list of potential lace to move? Are you planning to rent or buy a house there? If so, then keep reading because this will guide you to pick your favorite neighborhood because everybody loves a nice neighborhood!
+
+
+Exploratory Analysis
+==============================================================================
+
+
+Visualization
+--------------
+
+Income Distribution [insert figure]
+
+This chart confirms something that is something of a truism when we think about cities -- that neighborhoods are extremely segregated and well defined on income boundaries. As we can see from these distributions the richest and poorest areas do not look like the baltimore city average at all. Instead, they are, respectively, very rich and very poor. This stark inequality represents one of the most troubling facets of city living. The inequality in wealth distribution is interesting in and of itself but it may also imply something important about the geography of the city. If wealth were more evenly spread would we see more "viable" neighborhoods? It is hard to think that is not the case.
+
+
+Home Prices [insert figure]
+
+As we can see from the home price chart home prices are high in a relatively small number of neighborhoods before declining rather drastically. This seems to reinforce the above: a few neighborhoods contain the majority of the wealth of Baltimore.
+
+Rankings
+---------
+
+The goal of this project is to output rankings based on the wealth of data provided through the Baltimore Neighborhood Indicators Alliance. But what sort of rankings? Well, one way to do it would be to output ordered lists that reflect key neighborhood vitals. A perfectly valid ranking under this monovariable ordering would be the neighborhoods ordered by median income. You'd end up with something like this:
+
+                                       median_income
+CSA2010                                             
+Greater Roland Park/Poplar Hill            104481.89
+Canton                                      91735.65
+Inner Harbor/Federal Hill                   88854.21
+South Baltimore                             88487.05
+North Baltimore/Guilford/Homeland           81450.63
+.......
+
+This is interesting -- we know where the rich prefer to live. But it doesn't get us much else. There are a multitude of interesting ways to rank 
+
+CSA2010		       	       	     	 adult_arrest_rate
+Downtown/Seton Hill                      241.5
+Madison/East End                         154.6
+Southwest Baltimore                      147.3
+Clifton-Berea                            131.9
+Washington Village/Pigtown               129.5
+.........
+
+Interesting -- If we valued our safety perhaps we'd best avoid the Downtown/Seton Hill area. Looks like trouble.
+
+But these rankings don't tell the whole story. They don't even tell half the story. You might say they're rather...one dimensional. We should them out. But how? If you're rich, well, perhaps you can simply trust the taste of other rich folks and choose the area with the highest median income. If you did that, you'd be using median income as a proxy for quality. But do people of the same economic cohort really want the same things as you?I'd venture a guess that they don't.
+
+And what if you're not rich? Maybe you should find the safest neighborhood that you can afford and stick to it. That might be a sensible approach. But what if you're a tough young guy and would tolerate a little less safety for better proximity to the the music venues you like. Then you'd need some sort of intersection of the rankings for safety, entertainment, and price.
+
+In short, you need a model.
+
+
+Baseline Model:
+
+How should we parametize this model? What sorts of data can and should it include? These are important questions whose correct answer will guarantee we get the correct answer.
+
+But what is the answer we want? Well, if we were to create a scoring function that output a ranking of neighborhoods based on which was "best" we could do that. But defining what is best is, as we noted above, tricky. Should best be safest? Artiest? The most connected to public transit? Some arbitrary combination of everything?
+
+Initially, we wanted to start with this notion of "best" neighborhoods as an entrypoint into the data. And as we explored the data our notions of best changed. For a baseline notion of "best" we eventually settled on the following formula.
+
+Formula
+-------------
+zscore(Median Housing Price) - zscore(TOM)
+
+What does this formula capture? Well, we think it actually captures a few things very compactly. One way to compute the baseline model would be to have a lot of different parameters that we could weight to our liking. But there is no ground truth. Plus, as you might imagine, people don't choose the neighborhood they live in based upon the Baltimore Neighborhood Indicators Alliance Vital Signs report.
+
+The theory that underlies this model is the one of efficient markets. The price of the home in a given neighborhood should encode a lot of information about the area that the home is in. Succinct.
+
+Perhaps we should stop here then. That's it. The market has told us everything we need to know.
+
+Well, another bit of information that the market provides is the time on the market, or TOM. The time on the market is a useful indicator because it provides us with a sense of popularity. Areas with a higher time on the market are less popular for new homebuyers. This is why we use hte negative sign. 
+
+Combined, this simple model should give us some notion of the most desirable neighborhoods. And it does. We've done some validation with lists available to us (aggregated neighborhood reviews and the like) that appear to confirm this initial baseline. 
+
+
+Future Improvements
+======================
+
+"Bestness"
+---------------------
+
+But the model should also expose new and interesting areas that have not yet necessarily become hot spots. To this end we will need to parametize a new model that can tease out different dimensions of the data. And to that end we will provide profiles that are combinations of setpoints on the parameters we use.
+
+As a matter of fact, Nate Silver actually did something to this effect for NYC five years ago.[1] We will likely use his categories as a starting point for our own modeling whilst taking into account data we don't have and including data that he didn't incorporate. These "categories" look something like this:
+
+Housing Cost: 25 percent
+Transit: 13 percent
+Shopping and Services: 9 percent
+Safety: 8 percent
+Restaurants: 8 percent
+Schools: 6 percent
+Diversity: 6 percent
+Creative Capital: 6 percent
+Housing Quality: 5 percent
+Green Space: 5 percent
+Health and Environment: 5 percent
+Nightlife: 4 percent
+
+We will also run clustering algorithms on these neighborhoods to study their behavior- ideally similar behavors should get grouped together. This will also help in identifying any neighborhood which exhibits any anomalous behavior. We are positive that further exploation will reveal interesting facts about Baltimore and its people. 
+
+We see our final model developing as a recommender system which can guide a person looking for a specific neighborhood by suggesting the best match. 
+
+Construction
+-------------
+
+
+Areas with high construction might also be promising. While market prices give us a notion of current desirability for a given area construction permits give us some indication of FUTURE desirability as well. Construction is a long term investment and gives us a high confidence indicator that the area will continue to be popular in the future.
+
+There is a significant and very lopsided concentration of residential construction per thousand residents. The top three areas for new construction are Orangeville/East Highlandtown at 36, Claremont/Armistead at 26.0 and South Baltimore at 21.8. The neighborhood with the fourth highest number of permits per thousand is Washington Village/Pigtown at a comparatively paltry 9. The construction quickly drops to near zero from there.
+
+After focusing on these areas it seems that there is good evidence to suggest that new construction reflects some measure of desirability. Take for example Orangeville/East Highlandtown. This neighborhood abuts the currently very highly scoring Highlandtown which itself abuts the very highly scoring Canton neighborhood. South Baltimore is currently the second highest performing neighborhood according to our scoring. The construction data strongly implies that it will retain, if not improve, upon that distinction. Washington Village/Pigtown, while undergoing comparatively modest construction at 9 permits per thousand borders Inner Harbor/Federal Hill on its Eastern side and Downtown on it's Northern Border. 
+
+From the plot above we can observe that for Greenmount East(53) median prices is low compared to the average price, its avilability in market is for a longer duration. After going through reviews and statistics about these neighborhoods, we found that Greenmount East is one of the worst places to live in Baltimore. We will further boost this hypothesis by findig support by incorporating more data into our model. 
+
+From the plot we can see that  Inner Harbor/Federal Hil(1)l is quite in demand even though it is one of the most expensive neighborhoods in Baltimore. Further web scouring indeed supports this finding. 
+
+
+More data sources (to get different coverage) -- 311 etc
+
+Nearest Neighborhoods in NYC?
+
+Contiguity with popular areas? Neighborhoods that border popular neighborhoods but aren't particularly good themselves maybe should get a boost. Particularly if, as we see in the construction data, the area is "up and coming."
+
+
+
+[1] http://nymag.com/realestate/neighborhoods/2010/65374/

@@ -1,0 +1,31 @@
+We aso build a regression model to predict the most probable prices of the houses in a neighborhood. Based on our observations and analysis to this point, we believe following are the parameters that would be the best choice for evaluating the output.
+
+Parameters used to train the model are mentioned below:
+
+1. Media TOM
+2. Nightlife/ Nightlife
+3. Education quality
+4. Diversity
+5. Crime
+
+We have performed sublinear feature and target scaling on all the parameters to make sure gradient descent converges more quickly. We decided to take logarithm rather than z score since z score is just linear transformation of data, and sublinear transformation is much more meaningful to build such models.
+
+We also found correlation between each pair of features to make sure we do not have any highly coorelated feature n our model. From the table we can see that Crime and Restaurant have a correlation coefficient of .45 and p value much less than .05. When we combined these two features and then traine dhte model, the model showed lwer score 0.67. We decided to keep thee two features seperate and then train.
+
+Model correctly penalizes for having longer time on market for a house and having high crime rate and gives higher score for having a good stand in terms of number of restaurants, education, and diversity. Model score is 0.78 and residual sum of squares is 0.05. 
+
+
+From our initial analysis we can see that Brooklyn/Curtis Bay/Hawkins Point, Dickeyville/Franklintown, South Baltimore, Southwest Baltimore, and Westport/Mount Winans/Lakeland are outliers and they can really affect our linear regression fit. 
+
+Predicted - Actual
+205804.27- 40000
+30524.36- 227550
+97888.63- 289900
+101411.74- 23250
+171505.83- 35500
+
+
+From the graph we can see that the model has understated few and overstated few neighborhoods. Dickeyville/Franklintown has to suffer a lot due to its really high value of time in market. When we furher look for the reason we find that the neighborhood is quite rural compared to ts counterparts. We also see that contrary to our model South Baltimore is quite famous among its residents and is in high demand. Its population is quite diverse and the neighborhood is quite close to Fereral Hill/Inner Harbor. THese analsis further supports the fact that these placs are rather outliers.
+
+
+

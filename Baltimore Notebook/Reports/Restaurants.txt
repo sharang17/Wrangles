@@ -1,0 +1,8 @@
+For ranking neighborhods based on nightlife, we took all the restaurants in Baltimore from Open Baltimore. We then aggregated it to get the count for our neighborhoods and used that as our basis for assigning score to all the places. Wethink it is a good parameter to rank the places as famous places have more number of restaurants and ofgood quality due to high competition than places with fewer number of restaurants.
+
+If we look at the graph which shows count of restaurants we can easily pick top neighborhoods, which stand out among all the neighborhoods. Federal Hill tops the list by a good margin. 
+
+We also plotted count per population to check that our count score does not vary much due to area of the neighborhood. Count per population line matches pretty well with the count line and maintains the relative position except for Seton Hill, Federal Hill, and SOuthwest Baltimore.
+
+
+Enhancements: We could assign ratings to the restaurants while taking the count as good restaurants should be given more preference. 
