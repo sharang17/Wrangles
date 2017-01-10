@@ -1,0 +1,226 @@
+,index,address,name,rating
+0,0,"1400 West Cold Spring Ln, Baltimore, MD 21209",Baltimore Polytechnic Institute,4
+1,1,"5207 Roland Ave, Baltimore, MD 21210",Roland Park Elementary/Middle School,4
+2,2,"3220 the Alameda, Baltimore, MD 21218",Baltimore City College,4
+3,3,"712 Cathedral St, Baltimore, MD 21201",Baltimore School For The Arts,5
+4,4,"1801 Sulgrave Ave, Baltimore, MD 21209",The Mount Washington School,5
+5,5,"100 East Heath St, Baltimore, MD 21230",Thomas Johnson Elementary School,5
+6,6,"2851 Kentucky Ave, Baltimore, MD 21213",The Green School,5
+7,7,"1600 Guilford Ave, Baltimore, MD 21202",Baltimore Montessori Public Charter School,4
+8,8,"500 South Linwood Ave, Baltimore, MD 21224",Hampstead Hill Academy,4
+9,9,"4300 Buchanan Ave, Baltimore, MD 21211",Medfield Heights Elementary School,5
+10,10,"4600 Falls Rd, Baltimore, MD 21209",Western High School,4
+11,11,"1398 Mt Royal Ave, Baltimore, MD 21217",Midtown Academy,4
+12,12,"4301 Raspe Ave, Baltimore, MD 21206",City Neighbors Charter School,5
+13,13,"4410 Frankford Ave., Baltimore, MD 21206",Baltimore International Academy,4
+14,14,"5504 York Rd, Baltimore, MD 21212",Tunbridge Public Charter School,5
+15,15,", Baltimore, MD 21202",Baltimore Montessori Public Charter Middle School,1
+16,16,"5609 Sefton Ave, Baltimore, MD 21214",City Neighbors Hamilton,3
+17,17,"1040 William St, Baltimore, MD 21218",Federal Hill Preparatory School,4
+18,18,"6101 Old Harford Rd, Baltimore, MD 21214",Hamilton Elementary/Middle School,4
+19,19,"3608 Chestnut Ave, Baltimore, MD 21211",Hampden Elementary/Middle School,3
+20,20,"3901 Maine Ave, Baltimore, MD 21207",Liberty Elementary School,4
+21,21,"5201 Loch Raven Blvd, Baltimore, MD 21239",Northwood Elementary School,4
+22,22,"1400 Orleans Street, Baltimore, MD 21231",Paul Laurence Dunbar High School,4
+23,23,"802 South Caroline St, Baltimore, MD 21231",The Crossroads School,5
+24,24,"5001 East Eager St, Baltimore, MD 21205",Armistead Gardens Elementary School,4
+25,0,"1400 West Cold Spring Ln, Baltimore, MD 21209",Baltimore Polytechnic Institute,4
+26,1,"5207 Roland Ave, Baltimore, MD 21210",Roland Park Elementary/Middle School,4
+27,2,"3220 the Alameda, Baltimore, MD 21218",Baltimore City College,4
+28,3,"712 Cathedral St, Baltimore, MD 21201",Baltimore School For The Arts,5
+29,4,"1801 Sulgrave Ave, Baltimore, MD 21209",The Mount Washington School,5
+30,5,"100 East Heath St, Baltimore, MD 21230",Thomas Johnson Elementary School,5
+31,6,"2851 Kentucky Ave, Baltimore, MD 21213",The Green School,5
+32,7,"1600 Guilford Ave, Baltimore, MD 21202",Baltimore Montessori Public Charter School,4
+33,8,"500 South Linwood Ave, Baltimore, MD 21224",Hampstead Hill Academy,4
+34,9,"4300 Buchanan Ave, Baltimore, MD 21211",Medfield Heights Elementary School,5
+35,10,"4600 Falls Rd, Baltimore, MD 21209",Western High School,4
+36,11,"1398 Mt Royal Ave, Baltimore, MD 21217",Midtown Academy,4
+37,12,"4301 Raspe Ave, Baltimore, MD 21206",City Neighbors Charter School,5
+38,13,"4410 Frankford Ave., Baltimore, MD 21206",Baltimore International Academy,4
+39,14,"5504 York Rd, Baltimore, MD 21212",Tunbridge Public Charter School,5
+40,15,", Baltimore, MD 21202",Baltimore Montessori Public Charter Middle School,1
+41,16,"5609 Sefton Ave, Baltimore, MD 21214",City Neighbors Hamilton,3
+42,17,"1040 William St, Baltimore, MD 21218",Federal Hill Preparatory School,4
+43,18,"6101 Old Harford Rd, Baltimore, MD 21214",Hamilton Elementary/Middle School,4
+44,19,"3608 Chestnut Ave, Baltimore, MD 21211",Hampden Elementary/Middle School,3
+45,20,"3901 Maine Ave, Baltimore, MD 21207",Liberty Elementary School,4
+46,21,"5201 Loch Raven Blvd, Baltimore, MD 21239",Northwood Elementary School,4
+47,22,"1400 Orleans Street, Baltimore, MD 21231",Paul Laurence Dunbar High School,4
+48,23,"802 South Caroline St, Baltimore, MD 21231",The Crossroads School,5
+49,24,"5001 East Eager St, Baltimore, MD 21205",Armistead Gardens Elementary School,4
+50,0,"2000 Cecil Ave, Baltimore, MD 21218",Cecil Elementary School,5
+51,1,"6100 Cross Country Blvd, Baltimore, MD 21215",Cross Country Elementary School,4
+52,2,"3301 Carlisle Ave, Baltimore, MD 21216",Hilton Elementary School,5
+53,3,"4701 Greenspring Ave, Baltimore, MD 21215",KIPP Harmony,4
+54,4,"121 Mc Mechen St, Baltimore, MD 21217",Mount Royal Elementary/Middle School,4
+55,5,"2777 Presstman St, Baltimore, MD 21216",Rosemont Elementary School,3
+56,6,"851 Braddish Ave, Baltimore, MD 21216",Empowerment Academy,4
+57,7,"27 North Lakewood Ave, Baltimore, MD 21224",Patterson Park Public Charter School,5
+58,8,"1250 West 36th St, Baltimore, MD 21211",Independence School Local I,0
+59,9,"3935 Hilton Rd, Baltimore, MD 21215",Dr. Nathan A. Pitts-Ashburton Elementary/Middle School,3
+60,10,"1201 Cambria St, Baltimore, MD 21225",Benjamin Franklin High School @ Masonville Cove,3
+61,11,"220 North Bentalou St, Baltimore, MD 21223",Mary Ann Winterling Elementary School,4
+62,12,"2201 Presstman St, Baltimore, MD 21216",Carver Vocational-Technical High School,4
+63,13,"100 North Chester St, Baltimore, MD 21231",Commodore John Rogers Elementary School,5
+64,14,"5025 Dickey Hill Rd, Baltimore, MD 21207",Dickey Hill Elementary/Middle School,3
+65,15,"1900 Edgewood St, Baltimore, MD 21216",Edgewood Elementary School,4
+66,16,"1425 East Fort Ave, Baltimore, MD 21230",Francis Scott Key Elementary/Middle School,4
+67,17,"4633 Furley Ave, Baltimore, MD 21206",Furley Elementary School,2
+68,18,"5801 York Rd, Baltimore, MD 21212",Govans Elementary School,4
+69,19,"6300 O'Donnell St, Baltimore, MD 21224",Graceland Park/O'donnel Heights Elementary School,5
+70,20,"2700 Gwynns Falls Pky, Baltimore, MD 21216",Gwynns Falls Elementary School,4
+71,21,"3223 East Pratt St, Baltimore, MD 21224",Highlandtown Elementary #215,4
+72,22,"2011 Linden Ave, Baltimore, MD 21217",John Eager Howard Elementary School,4
+73,23,"701 Rappolla Stree, Baltimore, MD 21224",John Ruhrah Elementary School,5
+74,24,"2921 Stranden Rd, Baltimore, MD 21230",Lakeland Elementary/Middle School,4
+75,0,"1235 Sherwood Ave, Baltimore, MD 21239",Leith Walk Elementary School,4
+76,1,"621 Wildwood Pky, Baltimore, MD 21229",Lyndhurst Elementary School,5
+77,2,"100 East 26th St, Baltimore, MD 21218",Margaret Brent Elementary School,4
+78,3,"1207 Pine Heights Ave, Baltimore, MD 21229",Violetville Elementary/Middle School,3
+79,4,"5931 Yorkwood Rd, Baltimore, MD 21239",Yorkwood Elementary School,3
+80,5,"181 North Bend Rd, Baltimore, MD 21229",North Bend Elementary/Middle School,4
+81,6,"1385 North Gilmore St, Baltimore, MD 21217",New Song Academy,5
+82,7,"300 Pontiac Ave, Baltimore, MD 21225",Maree Garnett Farring Elementary School,2
+83,8,"4417 Loch Raven Blvd, Baltimore, MD 21218",Northwood Appold Community Academy,2
+84,9,"1300 Herkimer Street, Baltimore, MD 21223",Southwest Baltimore Charter School,4
+85,10,"2800 Brendan Ave, Baltimore, MD 21213",Afya Public Charter Middle School,5
+86,11,"1101 North Wolfe St, Baltimore, MD 21213",East Baltimore Community School,1
+87,12,"1500 Barclay St, Baltimore, MD 21202",Baltimore Design School,4
+88,13,"201 North Bend Rd, Baltimore, MD 21229",Green Street Academy,4
+89,14,"128 West Franklin St, Baltimore, MD 21201",Baltimore Leadership School For Young Women,4
+90,15,"1300 Gorsuch Ave, Baltimore, MD 21218",Abbottston Elementary School,4
+91,16,"3705 West Rogers Ave, Baltimore, MD 21215",Arlington Elementary School,3
+92,17,"2900 Barclay St, Baltimore, MD 21218",Barclay Elementary/Middle School,4
+93,18,"1327 Washington Blvd, Baltimore, MD 21230",Charles Carroll Barrister Elementary School,4
+94,19,"301 South Beechfield Ave, Baltimore, MD 21229",Beechfield Elementary School,2
+95,20,"3536 Brehms Ln, Baltimore, MD 21213",Brehms Lane Elementary School,4
+96,21,"1400 Exeter Hall Ave, Baltimore, MD 21218",Coldstream Park Elementary School,3
+97,22,"4301 West Bay Ave, Baltimore, MD 21225",Curtis Bay Elementary School,4
+98,23,"1400 North Caroline St, Baltimore, MD 21213",Dr. Bernard Harris Sr. Elementary School,4
+99,24,"3750 Greenspring Ave, Baltimore, MD 21211",Dr. Martin Luther King Jr. Elementary School,2
+100,0,"1000 North Montford Ave, Baltimore, MD 21213",Dr. Rayner Browne Elementary School,1
+101,1,"2835 Virginia Ave, Baltimore, MD 21215",Edgecombe Circle Elementary School,4
+102,2,"1624 Eutaw Place, Baltimore, MD 21217",Eutaw-Marshburn Elementary School,5
+103,3,"3801 Fallstaff Rd, Baltimore, MD 21215",Fallstaff Elementary School,3
+104,4,"1400 West Lexington St, Baltimore, MD 21223",Franklin Square Elementary School,5
+105,5,"2301 Gwynns Falls Pky, Baltimore, MD 21217",Frederick Douglass High School,3
+106,6,"5300 Belair Rd, Baltimore, MD 21206",Gardenville Elementary School,3
+107,7,"2800 Ailsa Ave, Baltimore, MD 21214",Garrett Heights Elementary School,3
+108,8,"245 South Wolfe St, Baltimore, MD 21231",Wolfe Street Academy,5
+109,9,"800 Scott St, Baltimore, MD 21230",George Washington Elementary School,4
+110,10,"5609 Sefton Ave, Baltimore, MD 21214",City Neighbors High School,4
+111,11,"6211 Walther Ave, Baltimore, MD 21206",Glenmount Elementary/Middle School,2
+112,12,"5545 Kennison Ave, Baltimore, MD 21215",Grove Park Elementary School,4
+113,13,"4517 Hazelwood Ave, Baltimore, MD 21206",Hazelwood Elementary/Middle School,2
+114,14,"231 S. Eaton Street, Baltimore, MD 21224",Highlandtown Elementary #237,2
+115,15,"1500 Imla St, Baltimore, MD 21224",Holabird Elementary,3
+116,16,"301 North Pulaski St, Baltimore, MD 21223",Lockerman Bundy Elementary School,4
+117,17,"5011 Arbutus Ave, Baltimore, MD 21215",Langston Hughes Elementary School,4
+118,18,"1600 North Payson St, Baltimore, MD 21217",Matthew A. Henson Elementary School,2
+119,19,"3500 Hillen Rd, Baltimore, MD 21218",Mergenthaler Vocational-Technical High School,4
+120,20,"2040 East 32nd St, Baltimore, MD 21218",Montebello Elementary School,4
+121,21,"6201 Frankford Ave, Baltimore, MD 21206",Moravia Park,4
+122,22,"2601 Tolley St, Baltimore, MD 21230",Morrell Park Elementary/Middle School,3
+123,23,"100 Kane St, Baltimore, MD 21224",Patterson High School,3
+124,24,"2400 Windsor Ave, Baltimore, MD 21216",Robert W. Coleman Elementary School,4
+125,0,"4300 Sidehill Rd, Baltimore, MD 21229",Rognel Heights Elementary/Middle School,3
+126,1,"424 South Pulaski St, Baltimore, MD 21223",Samuel F. B. Morse Elementary School,3
+127,2,"3880 Sinclair Ln, Baltimore, MD 21213",Sinclair Lane Elementary School,2
+128,3,"605 Dryden Dr, Baltimore, MD 21229",Thomas Jefferson Elementary School,4
+129,4,"3400 Ellerslie Ave, Baltimore, MD 21218",Waverly Elementary School,3
+130,5,"200 North Lakewood Ave, Baltimore, MD 21224",William Paca Elementary School,3
+131,6,"701 Gold Street, Baltimore, MD 21217",William Pinderhughes Elementary School,5
+132,7,"4001 Alto Rd, Baltimore, MD 21216",Windsor Hills Elementary School,3
+133,8,"7300 Moyer Ave, Baltimore, MD 21234",Woodhome Elementary/Middle School,3
+134,9,"1300 Gorsuch Ave, Baltimore, MD 21218",Stadium School,4
+135,10,"3501 Hillsdale Rd, Baltimore, MD 21207",Calvin M. Rodwell Elementary School,4
+136,11,"4520 York Rd, Baltimore, MD 21212",Guilford Elementary/Middle School,2
+137,12,"1100 Covington St, Baltimore, MD 21230",Digital Harbor High School,3
+138,13,"500 N. Caroline Street, Baltimore, MD 21205",National Academy Foundation,4
+139,14,"100 North Calhoun St, Baltimore, MD 21223",Vivien T. Thomas Medical Arts Academy,4
+140,15,"200 North Central Ave, Baltimore, MD 21202",Inner Harbor East Academy,3
+141,16,"5000 Truesdale Ave, Baltimore, MD 21206",Vanguard Collegiate Middle School,0
+142,17,"900 Woodbourne Ave, Baltimore, MD 21212",Baltimore I.T. Academy,1
+143,18,", Baltimore, MD 21234",Monarch Academy Public Charter School,0
+144,19,"2500 East Northern Parkway, Baltimore, MD 21214",N.A.C.A. Freedom And Democracy Academy Ii,2
+145,20,"800 Poplar Grove St, Baltimore, MD 21216",Alexander Hamilton Elementary School,4
+146,21,"2400 Round Rd, Baltimore, MD 21225",Arundel Elementary/Middle School,3
+147,22,"4301 10th St, Baltimore, MD 21225",Bay-Brook Elementary School,3
+148,23,"1406 North Ellamont St, Baltimore, MD 21216",Belmont Elementary School,2
+149,24,"1301 McCulloh St, Baltimore, MD 21217",Booker T. Washington Middle School,4
+150,0,"3701 Fernhill Ave, Baltimore, MD 21215",Callaway Elementary School,3
+151,1,"1100 Whitmore Ave, Baltimore, MD 21216",Calverton Elementary/Middle School,4
+152,2,"2501 Seabury Rd, Baltimore, MD 21225",Dr. Carter Godwin Woodson Elementary/Middle School,3
+153,3,"801 Bridgeview Rd, Baltimore, MD 21225",Cherry Hill Elementary/Middle School,5
+154,4,"100 South Caroline St, Baltimore, MD 21231",City Springs Elementary School,4
+155,5,"1409 North Collington Ave, Baltimore, MD 21213",Collington Square Elementary School,4
+156,6,"201 East 21st St, Baltimore, MD 21218",Dallas F. Nicholas Sr. Elementary School,4
+157,7,"501 North Athol Ave, Baltimore, MD 21229",Edmondson-Westside High School,4
+158,8,"3701 Eldorado Ave, Baltimore, MD 21207",Forest Park High School,4
+159,9,"2701 East Oliver St, Baltimore, MD 21213",Fort Worthington Elementary School,2
+160,10,"1200 Pennsylvania Ave, Baltimore, MD 21217",Furman L. Templeton Elementary School,3
+161,11,"1311 North Gilmor St, Baltimore, MD 21217",Gilmor Elementary School,4
+162,12,"1401 West Lafayette Ave, Baltimore, MD 21217",Harlem Park Elementary School,3
+163,13,"31 South Schroeder St, Baltimore, MD 21223",James Mchenry Elementary School,2
+164,14,"2400 West Mosher St, Baltimore, MD 21216",James Mosher Elementary School,4
+165,15,"1101 Valley St, Baltimore, MD 21202",Johnston Square Elementary School,2
+166,16,"3510 West Mulberry St, Baltimore, MD 21229",Mary E. Rodman Elementary School,3
+167,17,"5001 Moravia Rd, Baltimore, MD 21206",Northeast Middle School,3
+168,18,"6900 Park Heights Ave, Baltimore, MD 21215",Northwestern High School,3
+169,19,"4849 Pimlico Rd, Baltimore, MD 21215",Pimlico Elementary School,2
+170,20,"507 West Preston St, Baltimore, MD 21201",The Historic Samuel Coleridge-Taylor Elementary School,3
+171,21,"3434 Old Frederick Rd, Baltimore, MD 21229",Sarah M. Roach Elementary School,4
+172,22,"30 South Gilmor St, Baltimore, MD 21223",Steuart Hill Academic Academy,2
+173,23,"600 North Patterson Park Ave, Baltimore, MD 21205",Tench Tilghman Elementary School,3
+174,24,"820 East 43rd St, Baltimore, MD 21212",Walter P. Carter Elementary School,3
+175,0,"2401 Nevada St, Baltimore, MD 21230",Westport Academy,3
+176,1,"2235 North Fulton Ave, Baltimore, MD 21217",Westside Elementary School,5
+177,2,"150 West West St, Baltimore, MD 21230",Sharp-Leadenhall Elementary School,0
+178,3,"2501 Frederick Ave, Baltimore, MD 21223",Frederick Elementary School,4
+179,4,"1919 North Broadway, Baltimore, MD 21213",Harford Heights Elementary School,5
+180,5,"2801 Dukeland St, Baltimore, MD 21216",Connexions Community Leadership Academy,5
+181,6,"2201 Pinewood Ave, Baltimore, MD 21214",W.E.B. Dubois High School,3
+182,7,"6401 Pioneer Dr, Baltimore, MD 21214",Reginald F. Lewis High School,2
+183,8,"2700 Seamon Ave, Baltimore, MD 21225",New Era Academy,5
+184,9,"2801 St Lo Dr, Baltimore, MD 21213",Heritage High School,3
+185,10,"1300 West 36th St, Baltimore, MD 21211",Academy For College And Career Exploration,4
+186,11,"1500 Harlem Ave, Baltimore, MD 21217",Augusta Fells Savage Institute Of Visual Arts,4
+187,12,"5001 Sinclair Lane, Baltimore, MD 21206",Maritime Industries Academy,4
+188,13,"2500 West North Ave, Baltimore, MD 21216",Coppin Academy,3
+189,14,"1301 McCulloh St, Baltimore, MD 21217",Renaissance Academy,4
+190,15,"4701 Greenspring Ave, Baltimore, MD 21209",MD Academy of Technology and Health Sciences Middle/High School,3
+191,16,"2500 East Northern Parkway, Baltimore, MD 21214",Friendship Academy Of Engineering And Technology,2
+192,17,"900 Druid Hill Ave, Baltimore, MD 21201",New Hope Academy,3
+193,18,"201 Northbend Rd, Baltimore, MD 21229",K.A.S.A. (Knowledge And Success Academy),2
+194,19,"2815 Saint Lo Drive, Baltimore, MD 21213",The Reach! Partnership School,3
+195,20,"2000 Edgewood St, Baltimore, MD 21216",Bluford Drew Jemison Stem Academy West,5
+196,21,"1807 Harlem Avenue, Baltimore, MD 21217",Roots and Branches,4
+197,22,"801 South Highland Ave, Baltimore, MD 21224",Canton Middle School,2
+198,23,"900 Woodbourne Ave, Baltimore, MD 21212",Baltimore IT Academy,3
+199,24,"5301 Erdman Ave, Baltimore, MD 21205",Claremont School,0
+200,0,"701 Gold St, Baltimore, MD 21217",George G. Kelson Elementary School,2
+201,1,"4411 Garrison Blvd, Baltimore, MD 21215",George W.F. McMechen High School,5
+202,2,"3910 Barrington Rd, Baltimore, MD 21207",Garrison Middle School,1
+203,3,"2555 Harford Rd, Baltimore, MD 21218",Harbor City High School,4
+204,4,"2625 Federal St, Baltimore, MD 21213",Lakewood Elementary School,5
+205,5,"1601 East Lombard St, Baltimore, MD 21231",Lombard Middle School,4
+206,6,"844 Roundview Rd, Baltimore, MD 21225",Patapsco Elementary/Middle School,3
+207,7,"2001 North Warwick Ave, Baltimore, MD 21216",William S. Baer School,4
+208,8,"1501 Ashburton St, Baltimore, MD 21216",Alternative Elementary School,3
+209,9,"401 East Eager St, Baltimore, MD 21202",Eager Street Academy,0
+210,10,"2700 Seamon Ave, Baltimore, MD 21225",Southside Academy,4
+211,11,"1001 West Saratoga St, Baltimore, MD 21223",Francis M. Wood Alternative High School,3
+212,12,"1600 Arlington Ave, Baltimore, MD 21239",Lois T. Murray Elementary School,5
+213,13,"500 North Caroline St, Baltimore, MD 21205",Paul Laurence Dunbar Middle School,2
+214,14,"4701 Greenspring Ave, Baltimore, MD 21209",K.I.P.P. Ujima Village Academy,4
+215,15,"5000 Truesdale Ave, Baltimore, MD 21206",Dr. Samuel L. Banks High School,3
+216,16,"1601 E. Lombard Street, Baltimore, MD 21231",Baltimore Freedom Academy,3
+217,17,"5000 Truesdale Ave, Baltimore, MD 21206",Thurgood Marshall High School,2
+218,18,"2801 St Lo Dr, Baltimore, MD 21213",Doris M. Johnson High School,4
+219,19,"1500 Harlem Ave, Baltimore, MD 21217",Baltimore Talent Development High School,4
+220,20,"2801 North Dukeland St, Baltimore, MD 21216",Institute Of Business And Entrepreneurship,3
+221,21,"2050 N. Wolfe Street, Baltimore, MD 21213",William C. March Middle School,2
+222,22,"1130 North Caroline St, Baltimore, MD 21213",Bluford Drew Jemison Stem Academy Middle,5
+223,23,"2000 Edgewood Street, Baltimore, MD 21216",Baltimore Civitas Middle/High School,5
+224,24,"801 South Highland Ave, Baltimore, MD 21224",Friendship Academy Of Science And Technology,3

@@ -1,0 +1,52 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Dec 11 17:12:16 2016
+
+@author: leena
+"""
+
+import pandas as pd
+import json
+import numpy as np
+
+mapping = {}
+
+with open('/home/leena/Documents/Projects/DSF/BaltimoreRanking-519/Data/csa_to_neighborhood_map.json') as data_file:    
+    csa = json.load(data_file)
+
+df = pd.read_csv('../CSE519Project/agg_restaurants.csv')
+
+for row_num, series in df.iterrows():
+    
+        neighborhood = series["neighborhood"]
+        found = False
+        for csa_area, sub_neighborhood_list in csa.items():
+            for sub_neighborhood in sub_neighborhood_list:
+                if sub_neighborhood.strip().lower() in neighborhood.strip().lower():
+                    csa_match = csa_area
+                    found = True
+                    break
+            if found == True:
+                found = False
+                try:
+
+                    mapping[csa_match] += series['count']
+                except Exception as e:
+
+                    count = 0
+                    mapping[csa_match] = count + series['count']
+
+                break
+
+print(mapping)
+
+f = pd.DataFrame([mapping])
+f = np.transpose(f)
+f.to_csv('agg_res_count.csv')
+
+with open("/home/leena/Documents/Projects/DSF/BaltimoreRanking-519/Data/restaurant_counts.csv", "w") as fp:
+    json.dump(mapping, fp)
+
+    
+
